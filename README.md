@@ -2,9 +2,9 @@
 ### Local 
 
 ```bash
-docker run -it -p 8888:8888 ilcsoft/py3lcio bash  
+docker run -it --rm -v $PWD/pyLCIO/examples:/home/ilc/data -p 8888:8888 ilcsoft/py3lcio bash
 ```
-this will spin up a container with port mappings to your local PC.
+this will spin up a container with port mappings to your local PC as well as a local path mounted on to the container.
 
 ```bash
 cd LCIO; source setup.sh; cd .. 
