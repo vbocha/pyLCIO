@@ -20,4 +20,11 @@ RUN git clone https://github.com/iLCSoft/LCIO.git \
    && cmake -DBUILD_ROOTDICT=ON -D CMAKE_CXX_STANDARD=17 ..  \
    && make -j 4 install 
 
+
+COPY requirements.txt requirements.txt 
+RUN pip install --upgrade pip \
+    && pip install --upgrade --no-cache-dir -r requirements.txt  \
+    && rm requirements.txt
+
+
 CMD ["/bin/bash"]
