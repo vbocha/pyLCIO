@@ -15,6 +15,7 @@ this will spin up a container with port mappings to your local PC as well as a l
 
 ```bash
 cd LCIO; source setup.sh; cd .. 
+conda activate root_env ## if you wish to use matplotlib instead of ROOT
 jupyter notebook --port=8888 --ip=0.0.0.0 --allow-root 
 ```
 
