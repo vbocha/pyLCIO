@@ -8,7 +8,7 @@ docker run -it --rm -v $PWD/pyLCIO/examples:/home/ilc/data -p 8888:8888 ilcsoft/
 
 If you wish to use `matplotlib`:
 ```bash
-docker run -it --rm -v $PWD/pyLCIO/examples:/home/ilc/data -p 8888:8888 ilcsoft/py3lcio:matplotlib bash
+docker run -it --rm -v $PWD/pyLCIO/examples:/home/ilc/data -p 8888:8888 ilcsoft/py3lcio:lcio-15-04 bash
 ```
 
 this will spin up a container with port mappings to your local PC as well as a local path mounted on to the container.
