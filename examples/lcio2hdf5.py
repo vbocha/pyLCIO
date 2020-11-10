@@ -1,5 +1,5 @@
 from pyLCIO import EVENT, UTIL, IOIMPL, IMPL
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import matplotlib as mpl
 import numpy as np
 import h5py 
