@@ -112,8 +112,10 @@ def fill_numpy(record):
             H, xedges, yedges = np.histogram2d(xlayer, zlayer, bins=(binX, binZ), weights=elayer)
             layers.append(H)
 
-    ## convert them into numpy array
-    l.append(layers)
+   
+        l.append(layers)
+    
+     ## convert them into numpy array
     shower = np.asarray(l)
     e0 = np.reshape(np.asarray(E),(-1,1))
 
