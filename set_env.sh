@@ -3,4 +3,4 @@
 cd LCIO 
 source setup.sh
 cd .. 
-#conda activate root_env
+conda activate root_env
