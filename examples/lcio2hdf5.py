@@ -1,6 +1,6 @@
 from pyLCIO import EVENT, UTIL, IOIMPL, IMPL
 #import matplotlib.pyplot as plt
-import matplotlib as mpl
+#import matplotlib as mpl
 import numpy as np
 import h5py 
 import awkward1 as ak 
