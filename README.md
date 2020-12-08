@@ -44,13 +44,9 @@ conda activate root_env
 ```bash
 jupyter notebook --port=8888 --ip=0.0.0.0 --allow-root 
 ```
-If you're not in DESY network, you need to tunnel via ssh. 
+If you're not in DESY network, you need to tunnel via ssh. Follow official DESY-IT page [[here](https://it.desy.de/services/uco/documentation/external_access/index_eng.html)]
 
-```bash
-ssh -D 2280 name@bastion.desy.de
-```
-
-after that, you will see the notebook. Well done!
+After that, you can copy notebook link to your browser and access it. Well done!
 
 
 
