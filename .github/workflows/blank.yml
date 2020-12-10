@@ -22,7 +22,10 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      ##
+      - name: Checkout
+        uses: actions/checkout@v2
+        
       - name: Setup QEMU 
         uses: docker/setup-qemu-action@v1
         
@@ -39,12 +42,11 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v2
         with:
-          push: true
-          file: ./Dockerfile.pyLCIO3
-          tags: ilcsoft/py3lcio:lcio-15-04_v4
           context: .
-      
-      
+          file: ./Dockerfile.pyLCIO3
+          push: true  
+          tags: ilcsoft/py3lcio:lcio-15-04_v4
+          
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
       
