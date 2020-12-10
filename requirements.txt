@@ -7,4 +7,5 @@ h5py
 awkward1
 torch
 torchvision
+torch_geometric
 streamlit
