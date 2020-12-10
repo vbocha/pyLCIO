@@ -8,3 +8,4 @@ awkward1
 torch
 torchvision
 streamlit
+torch_geometric
