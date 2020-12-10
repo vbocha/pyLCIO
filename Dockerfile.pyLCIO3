@@ -1,8 +1,8 @@
 FROM rootproject/root:6.22.00-conda
 
 RUN apt-get update \
-  && apt-get -y install cmake 
-  #&& apt-get -y install zlib1g-dev
+  && apt-get -y install cmake \ 
+  && apt-get -y install vim
 
 
 WORKDIR /home/ilc

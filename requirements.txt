@@ -4,3 +4,7 @@ matplotlib
 pandas
 scipy
 h5py
+awkward1
+torch
+torchvision
+streamlit
