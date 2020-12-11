@@ -11,4 +11,4 @@ streamlit
 torch_scatter
 torch_sparse
 torch_geometric
-jupyter-lab
+jupyterlab
