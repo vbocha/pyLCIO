@@ -8,7 +8,3 @@ awkward1
 torch
 torchvision
 streamlit
-torch-scatter
-torch-sparse
-torch-geometric
-jupyterlab
