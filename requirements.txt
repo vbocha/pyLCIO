@@ -8,3 +8,8 @@ awkward1
 torch
 torchvision
 streamlit
+torch-scatter -f https://pytorch-geometric.com/whl/torch-1.7.0+cu102.html
+torch-sparse -f https://pytorch-geometric.com/whl/torch-1.7.0+cu102.html
+torch-cluster -f https://pytorch-geometric.com/whl/torch-1.7.0+cu102.html
+torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.7.0+cu102.html
+torch-geometric
